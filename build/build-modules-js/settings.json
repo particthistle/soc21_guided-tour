@@ -753,7 +753,42 @@
             ]
           }
         ]
-      }
+      },
+    "shepherd.js": {
+        "name": "shepherd.js",
+        "licenseFilename": "LICENSE",
+        "js": {
+          "dist/js/shepherd.min.js": "js/shepherd.min.js"
+        },
+        "provideAssets": [
+          {
+            "name": "shepherd.js",
+            "type": "script",
+            "uri": "shepherd.min.js",
+            "attributes": {
+              "defer": true
+            }
+          }
+        ]
+      },
+	  "popper.js": {
+        "name": "popper.js",
+        "licenseFilename": "LICENSE",
+        "js": {
+          "dist/popper.min.js": "js/popper.min.js"
+        },
+        "provideAssets": [
+          {
+            "name": "popper.js",
+            "type": "script",
+            "uri": "popper.min.js",
+            "attributes": {
+              "defer": true
+            }
+          }
+        ]
+      },
+
     },
     "errorPages": {
       "incomplete": {
