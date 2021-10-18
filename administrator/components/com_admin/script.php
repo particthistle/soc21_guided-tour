@@ -6106,6 +6106,11 @@ class JoomlaInstallerScript
 			'/media/com_joomlaupdate/js/update.js',
 			'/media/com_joomlaupdate/js/update.min.js',
 			'/media/com_joomlaupdate/js/update.min.js.gz',
+			// From 4.0.4 to 4.1
+			'/media/plg_system_tour/js/guide.js',
+			'/media/plg_system_tour/css/guide.css',
+			'/media/plg_system_tour/css/shepherd.css',
+			'/media/plg_system_tour/css/shepherd.min.css',
 		);
 
 		$folders = array(
